@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0E091E;
+    max-width: 800px;
+    margin: auto;
+    /* border: 1px solid white; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+
+header, footer {
+    position: fixed;
+    background-color: #0E091E;
+    padding: 1rem;
+    width: inherit;
+    max-width: inherit;
+    box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    -webkit-box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    -moz-box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    /* border: 1px solid white; */
+}
+
+main{
+    padding: 70px 2px;
+    /* border: 1px solid white; */
+}
+
+.sampul{
+    height: 400px;
+    width: auto;
+    border: 1px solid white;
+    display: flex;
+    margin: 2px;
+}
+
+img.img-sampul{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.foto-profil-nama-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 130px;
+    width: auto;
+    border: 1px solid white;
+    align-items: center;
+}
+.foto-profil-nama-quote .foto-profil{
+    margin-top: -100px;
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+img.img-profil{
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+header > h2 {
+    text-align: center;
+}
+
+header {
+    top: 0;
+    font-family: 'Itim', cursive;
+}
+
+footer{
+    bottom: 0;
+}
+footer .tool {
+    display: flex;
+    justify-content: space-between;
+}

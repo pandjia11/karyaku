@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* background-color: #0E091E; */
+}
+body{
+    background-color: #0E091E;
+    max-width: 800px;
+    margin: auto;
+    /* border: 1px solid white; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+
+header, footer {
+    position: fixed;
+    background-color: #0E091E;
+    padding: 1rem;
+    width: inherit;
+    max-width: inherit;
+    box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    -webkit-box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    -moz-box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    /* border: 1px solid white; */
+}
+.kategori{
+    top: 59px;
+    height: 60px;
+    background-color: #0E091E;
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+    /* border: 1px solid white; */
+    padding-top: 10px;
+    font-family: Arial;
+}
+.kategori .dropdown{
+    /* border: 1px solid white; */
+    margin-left: 10px;
+    position: fixed;
+    height: 40px;
+    width: 100px;
+    /* background-color: #171129; */
+    display: flex;
+    justify-content: center;
+}
+
+.kategori .dropdown select {
+    padding: 0.5em 0.5em;
+    color: white;
+    font-size: 14px;
+    background: #171129;
+    border: 0;
+}
+.kategori option {
+    border: 0;
+}
+main{
+    padding: 120px 2px;
+    /* border: 1px solid white; */
+}
+
+.galeri ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 2px; */
+}
+
+.galeri li{
+    height: 120px;
+    flex-grow: 1;
+    margin: 2px;
+    list-style: none;
+}
+
+img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+/* header > h2 {
+    text-align: center;
+} */
+header {
+    top: 0;
+    font-family: 'Itim', cursive;
+}
+
+footer{
+    bottom: 0;
+}
+footer .tool {
+    display: flex;
+    justify-content: space-between;
+}
