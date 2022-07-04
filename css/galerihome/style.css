@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    /* background-color: #0E091E; */
-}
 body{
     background-color: #0E091E;
     max-width: 800px;
@@ -99,4 +96,8 @@ footer{
 footer .tool {
     display: flex;
     justify-content: space-between;
+}
+footer .tool a{
+    color: white;
+    text-decoration: none;
 }

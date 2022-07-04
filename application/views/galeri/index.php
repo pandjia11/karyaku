@@ -25,44 +25,44 @@
         <div class="galeri">
             <ul>
                 <li>
-                    <a href="google.com"><img src="image/galeri/fiora3.jpg" /></a>
+                    <a href="google.com"><img src="<?= base_url();?>image/galeri/fiora3.jpg" /></a>
                 </li>
 
                 <li>
-                    <img src="image/galeri/angelisa.jpg" />
+                    <img src="<?= base_url();?>image/galeri/angelisa.jpg" />
                 </li>
 
                 <li>
-                    <img src="image/galeri/anjia.jpg" />
+                    <img src="<?= base_url();?>image/galeri/anjia.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/emilia.jpg" />
+                    <img src="<?= base_url();?>image/galeri/emilia.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/fumikoa.jpg" />
+                    <img src="<?= base_url();?>image/galeri/fumikoa.jpg" />
                 </li>
         
                 <li>
-                    <img src="image/galeri/jeannedarc.jpg" />
+                    <img src="<?= base_url();?>image/galeri/jeannedarc.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/princess3.jpg" />
+                    <img src="<?= base_url();?>image/galeri/princess3.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/pritifiora.jpg" />
+                    <img src="<?= base_url();?>image/galeri/pritifiora.jpg" />
                 </li>
             </ul>
         </div>
     </main>
     <footer>
         <div class="tool">
-            <p>G</p>
-            <p>+</p>
-            <p>P</p>
+            <a href="<?= base_url();?>"><img src="<?= base_url();?>image/icon/Image.png" alt=""></a>
+            <a href=""><img src="<?= base_url();?>image/icon/Plus.png" alt=""></a>
+            <a href="<?= base_url();?>profiluser/profil"><img src="<?= base_url();?>image/icon/Profile.png" alt=""></a>
         </div>
     </footer>
 </body>

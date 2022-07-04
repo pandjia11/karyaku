@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <title>Profil Karyaku</title>
 </head>
 <body>
@@ -26,7 +29,7 @@
                 <h3>Pandji ALam</h3>
             </div>
             <div class="quote">
-                <h4>im the bone of my sword</h4>
+                <p><q>im the bone of my sword</q></p>
             </div>
         </div>
 
@@ -39,47 +42,47 @@
             </div>
         </div>
 
-        <!-- <div class="galeri">
+        <div class="galeri">
             <ul>
                 <li>
-                    <img src="image/galeri/fiora3.jpg" />
+                    <img src="<?= base_url();?>image/galeri/fiora3.jpg" />
                 </li>
 
                 <li>
-                    <img src="image/galeri/angelisa.jpg" />
+                    <img src="<?= base_url();?>image/galeri/angelisa.jpg" />
                 </li>
 
                 <li>
-                    <img src="image/galeri/anjia.jpg" />
+                    <img src="<?= base_url();?>image/galeri/anjia.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/emilia.jpg" />
+                    <img src="<?= base_url();?>image/galeri/emilia.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/fumikoa.jpg" />
+                    <img src="<?= base_url();?>image/galeri/fumikoa.jpg" />
                 </li>
         
                 <li>
-                    <img src="image/galeri/jeannedarc.jpg" />
+                    <img src="<?= base_url();?>image/galeri/jeannedarc.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/princess3.jpg" />
+                    <img src="<?= base_url();?>image/galeri/princess3.jpg" />
                 </li>
             
                 <li>
-                    <img src="image/galeri/pritifiora.jpg" />
+                    <img src="<?= base_url();?>image/galeri/pritifiora.jpg" />
                 </li>
             </ul>
-        </div> -->
+        </div>
     </main>
     <footer>
         <div class="tool">
-            <p>G</p>
-            <p>+</p>
-            <p>P</p>
+            <a href="<?= base_url();?>"><img src="<?= base_url();?>image/icon/Image.png" alt=""></a>
+            <a href=""><img src="<?= base_url();?>image/icon/Plus.png" alt=""></a>
+            <a href="<?= base_url();?>profiluser/profil"><img src="<?= base_url();?>image/icon/Profile.png" alt=""></a>
         </div>
     </footer>
 </body>
