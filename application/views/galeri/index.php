@@ -61,7 +61,7 @@
     <footer>
         <div class="tool">
             <a href="<?= base_url();?>"><img src="<?= base_url();?>image/icon/Image.png" alt=""></a>
-            <a href=""><img src="<?= base_url();?>image/icon/Plus.png" alt=""></a>
+            <a href="<?= base_url();?>upload/upload"><img src="<?= base_url();?>image/icon/Plus.png" alt=""></a>
             <a href="<?= base_url();?>profiluser/profil"><img src="<?= base_url();?>image/icon/Profile.png" alt=""></a>
         </div>
     </footer>

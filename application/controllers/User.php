@@ -32,7 +32,7 @@ class User extends CI_Controller {
                 'status' => "login"
             );
             $this->session->set_userdata($data_session);
-            redirect(base_url()."galerihome/index");
+            redirect(base_url()."galerihome/galeri");
         }else{
             redirect(base_url());
         }

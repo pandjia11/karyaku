@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class GaleriHome extends CI_Controller {
+class Upload extends CI_Controller {
 
 	public function __construct()
     {
@@ -12,8 +12,8 @@ class GaleriHome extends CI_Controller {
             redirect(base_url());
         }
     }
-	public function galeri()
+	public function upload()
 	{
-		$this->load->view('galeri/index');
+		$this->load->view('upload/upload');
 	}
 }

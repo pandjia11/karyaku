@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0E091E;
+    max-width: 800px;
+    margin: auto;
+    /* border: 1px solid white; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+
+header, footer {
+    position: fixed;
+    background-color: #0E091E;
+    padding: 1rem;
+    width: inherit;
+    max-width: inherit;
+    box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    -webkit-box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    -moz-box-shadow: 0px 5px 8px -1px rgba(14,9,30,0.75);
+    /* border: 1px solid white; */
+}
+
+main{
+    padding: 70px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.drag-area{
+    border: 2px dashed #5A546D;
+    height: 260px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.drag-area.active{
+    border: 2px solid #5A546D;
+}
+.drag-area .icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.drag-area p{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.drag-area button{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #0E091E;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.keterangan-gambar{
+    padding: 10px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input.judul{
+    outline: none;
+    border-width: 0 0 2px;
+    border-color: rgb(72, 72, 112);
+    background: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+    height: 30px;
+}
+
+/* input.judul:focus{
+    border-color: green
+} */
+::placeholder {
+    font-size: 17px;
+    font-style: italic;
+    color: #B9B9B9;
+}
+.keterangan-gambar textarea{
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    outline: none;
+    resize: none;
+    border-width: 0 0 2px;
+    border-color: rgb(72, 72, 112);
+    background: none;
+    color: white;
+}
+
+textarea ::-webkit-scrollbar{
+    width: 0px;
+}
+
+header > h2 {
+    text-align: center;
+}
+
+header {
+    top: 0;
+    font-family: 'Itim', cursive;
+}
+
+footer{
+    bottom: 0;
+}
+footer .tool {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+footer .tool a{
+    color: white;
+    text-decoration: none;
+}
